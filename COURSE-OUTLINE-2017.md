@@ -10,7 +10,7 @@
 	* You have to be able to understand and build regular expressions for given tasks
 	* You have to be able to understand and build an FSA
 	* Exercises:
-		* Do all five crosswords under (http://regexcrossword.com/challenges/intermediate/puzzles/1)[http://regexcrossword.com/challenges/intermediate/puzzles/1] i.e. with [12345] at the end	
+		* Do all five crosswords under [http://regexcrossword.com/challenges/intermediate/puzzles/1](http://regexcrossword.com/challenges/intermediate/puzzles/1) i.e. with [12345] at the end	
 
 
 ## Week 2
