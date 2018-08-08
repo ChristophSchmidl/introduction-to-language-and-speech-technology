@@ -128,12 +128,40 @@
 
 ## Week 8
 
+* **Chapter 3**
+	* Read 3.10 (RU), 3.11 (RU)
+	* Exercises
+		* Do exercise 3.10 (“Computing minimum edit distances by hand…”).
 
+* **Chapter 5**
+	* Read 5.9 (RU)
+	* Exercises
+		* Make a plan to do exercise 5.10 ("Compute a bigram grammar..."). Describe how you can derive the necessary probabilities from the corpus. Describe also which context information this represents and speculate what other context information might be useful for this task
+		* Now do exercise 5.10. You do not have to extract bigram frequencies from a corpus yourself, but can use the file with bigram statistics at http://cls.ru.nl/staff/hvhalteren/bigrams.zip, taken from the Google N-Gram data. Although you are allowed to write a computer program and investigate all words, we suggest that you pick a few words that are close to “acress” in spelling (Word suggests "acres", "actress", "caress", "across" and "access") and compute the probabilities by hand.
 
-
+* **Chapter 14**
+	* Read Intro (RU), 14.1 (RU), 14.2 (RU), 14.3 (RU), 14.4 (RU), 14.5 (RU), 14.6 (RU), 14.7 (RU), 14.8 (RU), 14.9 (R),  14.10 (R), Summary (RU), Notes (R)
+	* Exercises
+		* A) Do exercise 14.2 ("Modify the algorithm for conversion to CNF...")
+		* B) Explain what you would have to do to the probabilistic CKY algorithm so that it can accept grammars that contain unit productions.
+		* C) Explain what you would have to do to the probabilistic CKY algorithm so that it can also handle grammars with right hand sides with more than two non-terminals (and without first transforming the grammar). You do not have to write pseudocode, just explain.		
 
 ## Week 9
 
+* **Chapter 17**
+	* Read completely (RU)
+	* Exercises
+		* Do Exercise 17.3 (in the draft 17.6): The rule which we gave as a translation for Example 17.24, is not a reasonable definition of what it means to be a vegetarian restaurant. 
+		FORALL x VegetarianRestaurant(x) ⇒ Serves(x,VegetarianFood) 
+		Give a FOL rule that better defines vegetarian restaurants in terms of what they serve.
+		* Do Exercise 17.6 (in the draft 17.9): Give FOL translations for the following sentences that capture the temporal relationships between the events. 
+		a. When Mary’s flight departed, I ate lunch. 
+		b. When Mary’s flight departed, I had eaten lunch.
+
+
+
+
+* **Chapter 18**
 
 
 
