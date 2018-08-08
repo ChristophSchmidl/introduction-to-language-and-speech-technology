@@ -23,12 +23,28 @@
 
 ## Week 2
 
+* **Chapter 4**
+	* Read Intro (RU), 4.1 (RU), 4.2 (RU), 4.3 (RU), 4.4 (RU), 4.5 (R), 4.6 (R), 4.7.intro (R), 4.8 (R), 4.9 (R), 4.10 (RU), 4.11 (R), Summary (RU), Notes (R)
+	* Note: As this is a quite intense week, the subject of smoothing has been set to the lower requirement grade. However, you should note that application of a smoothing method is usually of crucial importance.
 
+* **Chapter 5**
+	* Read Intro (RU), 5.1 (RU), 5.2 (RU), 5.3 (RU), 5.4 (R), 5.5 (RU), 5.6 (R), 5.7 (RU), 5.8 (RU), Summary (RU), Notes (R)
+	* Exercises:
+		* Do exercise 5.2. (“Use the Penn Treebank tagset…”). Bring a print to the classroom for comparison and discussion of problematic aspects
+		* Do exercise 5.7 ("Recall that the Church (1988) tagger...").. If you cannot come up with an actual example, at least describe how you would go about finding one.	
 
 
 ## Week 3
 
+* NOT IN J&M: Introduction to Machine Learning
+	* General: [https://en.wikipedia.org/wiki/Machine_learning]()
 
+
+* **Chapter 6**
+	* Read Intro (RU), 6.1 (RU), 6.2 (RU), 6.3 (RU), 6.4 (RU), 6.5 (R),  6.6 (intro+6.6.1 RU; 6.6.2+6.6.3 R), 6.7 (R), 6.8 (RU), Summary (RU) , Notes (R)
+	* Exercises:
+		* If we look at the Viterbi algorithm, we see that the probability of state at a given position is calculated n the basis of the preceding n states. However, it is claimed that the algorithm takes into account the whole sequence. Explain in your own words (at most 100) how the probability is influenced by the rest of the sequence, i.e. both the positions more than n back and the following positions.
+		* Explain in your own words (at most 50) how the EM algorithm works. I don’t mean the mathematics, but the underlying concept.
 
 
 
