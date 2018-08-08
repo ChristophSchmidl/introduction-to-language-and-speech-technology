@@ -111,10 +111,20 @@
 
 ## Week 7
 
+* **Chapter 13**
+	* Read Completely (RU)
+	* Exercises
+		* Note: For A, B and C, I am only asking for an explanation in natural language (English). However, if you prefer, you can also adjust the pseudocode (Figures 13.10 and 13.13). For D, don't even try to produce pseudocode, but stick with an explanation.
+		* A) Explain what you would have to do to the CKY algorithm so that it can accept grammars that contain unit productions.
+		* B) Explain what you would have to do to the CKY algorithm so that it can also handle grammars with right hand sides with more than two non-terminals (and without first transforming the grammar). You do not have to write pseudocode, just explain.
+		* C) Explain how you would have to augment the Earley algorithm of Figure 13.13 to enable parse trees to be retrieved from the chart.
+		* D) Suggest a way to alter the Earley algorithm so that it makes better use of bottom-up information to reduce the number of useless predictions.
 
-
-
-
+* **Chapter 15 (BEWARE: in the draft, this is Chapter 16)**
+	* Read Intro (RU), 15.1 (RU), 15.2 (RU), 15.3 (RU), 15.5.intro (R), 15.5.1 (R),  15.6.intro (RU), 15.6.1 (R), Summary (RU), Notes (R)
+	* Exercises
+		* A) Do Exercise 15.2. ("Consider the following examples from the Berkeley Restaurant Project..."). You do not have to write a full grammar., but assume that all the rules in Section 15.3 are already present. However, if you feel the need to adjust such a rule, you do have to provide the adjusted version.
+		* B) Do Exercise 15.3 (" Draw a picture of the subsumption lattice...").
 
 ## Week 8
 
