@@ -37,7 +37,21 @@
 ## Week 3
 
 * NOT IN J&M: Introduction to Machine Learning
-	* General: [https://en.wikipedia.org/wiki/Machine_learning]()
+	* General: [https://en.wikipedia.org/wiki/Machine_learning](https://en.wikipedia.org/wiki/Machine_learning)
+		* Read Intro (RU), 1 (RU), 2 (R), 3 (RU), 4 (RU), 5 (RU)
+	* Decision Trees: Powerpoint Lewicki, see attachment
+		* Read completely (RU)
+	* Naive Bayes: [https://en.wikipedia.org/wiki/Naive_Bayes_classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+		* Read Intro (RU), 1 (RU), 2 (RU), 5 (R)
+	* Kernel methods: [http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html](http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html)
+		* Read Completely (RU, but I don't expect you to reproduce the mathematics)
+	* Nearest Neigbour: [http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf](http://www.math.le.ac.uk/people/ag153/homepage/KNN/OliverKNN_Talk.pdf)
+		* Read completely (RU)
+	* Clustering: [https://en.wikipedia.org/wiki/Cluster_analysis](https://en.wikipedia.org/wiki/Cluster_analysis)
+		* Read Intro (RU), 1 (RU), 2 (R), 4 (R)
+	* Deep Learning: [https://en.wikipedia.org/wiki/Deep_learning](https://en.wikipedia.org/wiki/Deep_learning)
+		* Read Intro (RU), 1 (RU), 2 (R), 3 (R), 4 (R), 5 (RU), 8 (RU)
+	* Exercise: Do the Machine Learning exercise below.							
 
 
 * **Chapter 6**
@@ -46,7 +60,10 @@
 		* If we look at the Viterbi algorithm, we see that the probability of state at a given position is calculated n the basis of the preceding n states. However, it is claimed that the algorithm takes into account the whole sequence. Explain in your own words (at most 100) how the probability is influenced by the rest of the sequence, i.e. both the positions more than n back and the following positions.
 		* Explain in your own words (at most 50) how the EM algorithm works. I don’t mean the mathematics, but the underlying concept.
 
-
+* Machine Learning exercise
+	* For instructions, see ML_exercise.pdf. The other file is data for the exercise.
+		* ML_Exercise.pdf
+		* lobtlb_nnvb.csv
 
 ## Week 4
 
