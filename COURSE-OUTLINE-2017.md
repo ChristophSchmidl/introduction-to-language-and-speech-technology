@@ -163,31 +163,77 @@
 
 * **Chapter 18**
 
-
+	* Read Intro (RU), 18.1 (RU), 18.2 (RU), 18.6 (RU), Summary (RU)
+	* Exercises
+		* Do Exercise 18.2 (not in draft): Develop a set of grammar rules and semantic attachments to handle so-called control verbs as in the following:
+		1. Franco decided to leave.
+		2. Nicolas told Franco to go to Frasca.
+		The first of these is an example of subject control—Franco plays the role of the agent for both decide and leave. The second is an example of object control—there Franco is the person being told and the agent of the going event. The challenge in creating attachments for these rules is to properly incorporate the semantic representation of a single noun phrase into two roles.
+		* Do Exercise 18.4: As noted in Chapter 17, the present tense in English can be used to refer to either the present or the future. However, it can also be used to express habitual behavior, as in the following:
+		1. Flight 208 leaves at 3 o’clock.
+		This could be a simple statement about today’s Flight 208, or alternatively it might state that this flight leaves at 3 o’clock every day. Create a FOL meaning representation along with appropriate semantic attachments for this habitual sense.
 
 
 ## Week 10
 
+* **Chapter 19**
+	* Read completely (RU)
+	* Exercises
+		* Consider the verbs "drink", "kiss", and "write". Using a dictionary definition and WordNet (http://wordnetweb.princeton.edu/perl/webwn), describe appropriate selectional restrictions on them, both in plain English and in terms of expected roles with their potential WordNet senses (for the senses, you can assume that the system has access to an inheritance mechanism). Next, collect six examples of each in the British National Corpus (http://corpus.byu.edu/bnc/), taking one example from each of the main text types (SPOKEN, FICTION, MAGAZINE, NEWSPAPER, NON-ACAD, ACADEMIC). Analyse the examples in terms of semantic roles, and discuss how well your restrictions applied. For the analysis, start with an automatic SRL-system (http://cogcomp.cs.illinois.edu/page/demo_view/srl), but correct its output where necessary.
+
+* **Chapter 21**
+	* Read Intro (RU), 21.1 (R), 21.3 (RU), 21.4 (R), 21.5 (RU), 21.6 (R),  21.7 (R), Summary (RU)
+	* Exercises
+		* Find a news article in English with mention of at least two persons, and submit it to the Stanford Core NLP system (http://nlp.stanford.edu:8080/corenlp/). Analyse the output, especially the coreference resolution graph.
 
 
 
 
 ## Week 11
 
+* **Chapter 20**
+	* Read Intro(RU), 20.1 (RU), 20.2 (RU), 20.3 (RU), **20.4 (R)**, 20.5 (RU), **20.6 (R)**, 20.7 (RU), 20.8 (RU), **20.9 (R)**, 20.10 (RU), Summary (RU), **Notes (R)**
+	* Exercises: you can choose between two exercises: 
+		* If you have computational skills and sufficient resources, investigate GloVe. Go to http://nlp.stanford.edu/projects/glove/ and download Glove.6B.zip. Write a program that, for a specific vector, finds the ten terms closest to that vector in cosine distance. Then start with word vectors. Take example words from WordNet in the hierarchy under food and ingest. Examine where the suggested words are in WordNet in relation to the query word. Examine also how the "quality" varies with the vector size. Continue with relations, e.g. water-drink+eat, examining different level in the hierarchy. Finally, briefly check compositionality.
+		* If you are not up to the previous exercise, do Exercises 20.1 to 20.3 from the book (numbered 19.1 to 19.3 in the draft). If you did last week's exercise, you can reuse that corpus. About ten sentences should suffice, with length varying from 8 to 20 words. Use WordNet senses
 
+* **Not in Jurafsky & Martin**
+	* Read at level R
+		* https://code.google.com/p/word2vec/
+		* http://arxiv.org/pdf/1310.4546.pdf
+		* http://nlp.stanford.edu/projects/glove/
+		* http://nlp.stanford.edu/projects/glove/glove.pdf
+	* NB GloVe appears to be better than word2vec, both in performance and in being not only working but also understood
+	* Note: Some of these topics are also discussed in the course Text Mining. Those of you following both courses are likely to save some time here.	
 
 
 
 ## Week 12
 
+* **Chapter 22**
+	* Read Intro (RU), 22.1 (RU), 22.2 (RU), 22.3 (RU), 22.4 (RU), 22.5 (R), Summary (RU), Notes (R)
+	* Exercises
+		* Investigate the NewsReader system at http://ixa2.si.ehu.es/nrdemo/demo.php . Start with the attached analysed text. Examine what the system thinks it has discovered in the text, which resources it links to, and to which degree the analysis is right and/or useful. If you think you have discovered specific strong or weak points, check your observations with additional text material.
 
+* **Chapter 23**
+	* Read Intro (RU), 23.1 (RU), 23.2 (RU), 23.3 (RU), 23.6 (RU), Summary (RU)
+
+* Note: These topics are also discussed in the course Text Mining. Those of you following both courses are likely to save some time here			
 
 
 
 ## Week 13
 
-
-
-
+* **Chapter 24**
+	* Read Intro (RU), 24.1 (RU), 24.2 (RU), 24.3 (R), 24.4 (RU), 24.5 (RU), 24.6 (R), 24.7 (RU), Summary (RU), Notes (R)
+	* Exercises
+		* The chapter provides information on techniques that could also be used in building a good chatbot. The question is, however, to which degrees these techniques are actually used in "good" state-of-the-art chatbots. By "good" I mean bots that have been acclaimed or have received substantial press coverage, as being remarkable in their field. The two main fields here are a) virtual help desks, meant to provide customer service instead of a human help desk operator, and b) social chatbots, meant to act as a more or less natural conversation partner. Identify one "good" state-of-the-art chatbot of each type, and investigate it. Try to both evaluate its capabilities, and estimate which technologies from the chapter are being employed. Do not choose Google's new chatbot, which, even though it did get quite a lot of media coverage, is as yet not focussed enough to hold up a longer conversation. Another alternative which is acceptable, is an agent character in a computer game who is able to hold conversations.
 
 ## Week 14
+
+* **Chapter 25**
+	* Read completely (RU)
+	* Exercises
+		* Examine the quality of Google Translate (translate.google.com). Make a small test corpus with English sentances. You can reuse the test material you used earlier for e.g. semantics. Also include some syntactic constructions you expect to be problematic, and some examples of metaphors and fixed expressions. Translate to Dutch or your mother tongue if not Dutch. When checking the translations, move you mouse over the translation to see which phrases were used for the translation, and check out the alternatives that Google suggests. Then try some examples of translation in the opposite direction.
+
+* Note: Machine Translation has seen some interesting developments lately. However, we will (probably) have no time to have a look at these.
