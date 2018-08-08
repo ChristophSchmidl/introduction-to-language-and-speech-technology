@@ -11,6 +11,14 @@
 	* You have to be able to understand and build an FSA
 	* Exercises:
 		* Do all five crosswords under [http://regexcrossword.com/challenges/intermediate/puzzles/1](http://regexcrossword.com/challenges/intermediate/puzzles/1) i.e. with [12345] at the end	
+		* Attempt to do [http://regexcrossword.com/challenges/experienced/puzzles/4](http://regexcrossword.com/challenges/experienced/puzzles/4) and [http://regexcrossword.com/challenges/experienced/puzzles/5](http://regexcrossword.com/challenges/experienced/puzzles/5)
+
+* Chapter 3
+	* Read at level RU: Intro, 3.1, 3.2, 3.8, 3.9, Summary
+	* Read at level R: Notes
+	* Exercises:
+		* Do exercise 3.1 (“Give examples…”).		
+
 
 
 ## Week 2
