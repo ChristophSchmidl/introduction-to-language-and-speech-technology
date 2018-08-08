@@ -67,19 +67,44 @@
 
 ## Week 4
 
+* **Chapter 7**
+	* Read Intro (RU), 7.1 (RU), 7.3 (RU), 7.4 (RU), Summary (RU)
+		* You do not need to be able to understand the exact mathematics in 7.4
+	* Excercises
+		* Do Exercise 7.2 ("Translate the pronunciations...")	
 
-
+* **Chapter 8**
+	* Read completely (RU)
+	* Excercises:
+		* Look at the text in https://books.google.pl/books?id=urBjAAAAcAAJ&pg=PP1&img=1&zoom=3&hl=en&sig=ACfU3U1jdzfl6IHA5gFYN9yg_NOJ2uB3hw&ci=69%2C168%2C736%2C1295&edge=0
+		* Or, if this does not work, see the attached screen print (Tracts.jpg).
+		* Describe what needs to be done to get this text read out loud, e.g. to a blind person. Where useful, show intermediate representations (not necessarily for the complete text, but for parts of the text whch exemplify the representation well).
 
 
 ## Week 5
 
-
+* **Chapter 9**
+	* Read completely (RU)
+		* You do not need to be able to understand the exact mathematics in 9.3 and 9.4
+	* Exercises
+		* Do exercise 9.1
+		* When people speak fast, they start leaving out bits of words (reduction). If we want our speech recognizer to still recognize the words spoken, even though they are reduced, which elements of the architecture should we adapt, and how?	
 
 
 
 ## Week 6
 
+* **Chapter 12**
+	* Read Intro(RU), 12.1 (RU), 12.2 (RU), 12.3 (RU), 12.4 (RU), 12.5 (RU), 12.6 (RU), 12.7.intro (RU), 12.7.1 (RU), 12.8 (RU), Summary (RU), Notes (R)
+	* Exercises:
+		* Do Exercise 12.5 ("How many types of NPs...")
+		* Do Exercise 12.6 ("Assume a grammar...")
+		* Do Exercise 12.7 ("Does your solution...")
+		* Do Exercise 12.10 ("Page XXX discussed the need...")
+		* Now combine 12.6 and 12.10 to allow relative clauses to start with an Wh-NP.
 
+* **Chapter 16 (BEWARE: in the draft, this is Chapter 15)**
+	* Read Intro (RU), 16.1 (RU), 16.3 (R), Summary (RU)
 
 
 
