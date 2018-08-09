@@ -573,527 +573,527 @@
 
 ## 14 Statistical Parsing
 
-14.1 Probabilistic Context-Free Grammars
+* 14.1 Probabilistic Context-Free Grammars
 
-14.1.1 PCFGs for Disambiguation
+	* 14.1.1 PCFGs for Disambiguation
 
-14.1.2 PCFGs for Language Modeling
+	* 14.1.2 PCFGs for Language Modeling
 
-14.2 Probabilistic CKY Parsing of PCFGs
+* 14.2 Probabilistic CKY Parsing of PCFGs
 
-14.3 Learning PCFG Rule Probabilities
+* 14.3 Learning PCFG Rule Probabilities
 
-14.4 Problems with PCFGs
+* 14.4 Problems with PCFGs
 
-14.4.1 Independence Assumptions Miss Structural Dependencies Between Rules
+	* 14.4.1 Independence Assumptions Miss Structural Dependencies Between Rules
 
-14.4.2 Lack of Sensitivity to Lexical Dependencies
+	* 14.4.2 Lack of Sensitivity to Lexical Dependencies
 
-14.5 Improving PCFGs by Splitting Non-Terminals
+* 14.5 Improving PCFGs by Splitting Non-Terminals
 
-14.6 Probabilistic Lexicalized CFGs
+* 14.6 Probabilistic Lexicalized CFGs
 
-14.6.1 The Collins Parser
+	* 14.6.1 The Collins Parser
 
-14.6.2 Advanced: Further Details of the Collins Parser
+	* 14.6.2 Advanced: Further Details of the Collins Parser
 
-14.7 Evaluating Parsers
+* 14.7 Evaluating Parsers
 
-14.8 Advanced: Discriminative Reranking
+* 14.8 Advanced: Discriminative Reranking
 
-14.9 Advanced: Parser-Based Language Modeling
+* 14.9 Advanced: Parser-Based Language Modeling
 
-14.10 Human Parsing
+* 14.10 Human Parsing
 
-14.11 Summary
+* 14.11 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 15 Features and Unification
 
-15.1 Feature Structures
+* 15.1 Feature Structures
 
-15.2 Unification of Feature Structures
+* 15.2 Unification of Feature Structures
 
-15.3 Feature Structures in the Grammar
+* 15.3 Feature Structures in the Grammar
 
-15.3.1 Agreement
+	* 15.3.1 Agreement
 
-15.3.2 Head Features
+	* 15.3.2 Head Features
 
-15.3.3 Subcategorization
+	* 15.3.3 Subcategorization
 
-15.3.4 Long-Distance Dependencies
+	* 15.3.4 Long-Distance Dependencies
 
-15.4 Implementation of Unification
+* 15.4 Implementation of Unification
 
-15.4.1 Unification Data Structures
+	* 15.4.1 Unification Data Structures
 
-15.4.2 The Unification Algorithm
+	* 15.4.2 The Unification Algorithm
 
-15.5 Parsing with Unification Constraints
+* 15.5 Parsing with Unification Constraints
 
-15.5.1 Integration of Unification into an Earley Parser
+	* 15.5.1 Integration of Unification into an Earley Parser
 
-15.5.2 Unification-Based Parsing
+	* 15.5.2 Unification-Based Parsing
 
-15.6 Types and Inheritance
+* 15.6 Types and Inheritance
 
-15.6.1 Advanced: Extensions to Typing
+	* 15.6.1 Advanced: Extensions to Typing
 
-15.6.2 Other Extensions to Unification
+	* 15.6.2 Other Extensions to Unification
 
-15.7 Summary
+* 15.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 16 Language and Complexity
 
-16.1 The Chomsky Hierarchy
+* 16.1 The Chomsky Hierarchy
 
-16.2 Ways to Tell if a Language Isn’t Regular
+* 16.2 Ways to Tell if a Language Isn’t Regular
 
-16.2.1 The Pumping Lemma
+	* 16.2.1 The Pumping Lemma
 
-16.2.2 Proofs That Various Natural Languages Are Not Regular
+	* 16.2.2 Proofs That Various Natural Languages Are Not Regular
 
-16.3 Is Natural Language Context-Free?
+* 16.3 Is Natural Language Context-Free?
 
-16.4 Complexity and Human Processing
+* 16.4 Complexity and Human Processing
 
-16.5 Summary
+* 16.5 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 **Part IV Semantics and Pragmatics**
 
 ## 17 The Representation of Meaning
 
-17.1 Computational Desiderata for Representations
+* 17.1 Computational Desiderata for Representations
 
-17.1.1 Verifiability
+	* 17.1.1 Verifiability
 
-17.1.2 Unambiguous Representations
+	* 17.1.2 Unambiguous Representations
 
-17.1.3 Canonical Form
+	* 17.1.3 Canonical Form
 
-17.1.4 Inference and Variables
+	* 17.1.4 Inference and Variables
 
-17.1.5 Expressiveness
+	* 17.1.5 Expressiveness
 
-17.2 Model-Theoretic Semantics
+* 17.2 Model-Theoretic Semantics
 
-17.3 First-Order Logic
+* 17.3 First-Order Logic
 
-17.3.1 Basic Elements of First-Order Logic
+	* 17.3.1 Basic Elements of First-Order Logic
 
-17.3.2 Variables and Quantifiers
+	* 17.3.2 Variables and Quantifiers
 
-17.3.3 Lambda Notation
+	* 17.3.3 Lambda Notation
 
-17.3.4 The Semantics of First-Order Logic
+	* 17.3.4 The Semantics of First-Order Logic
 
-17.3.5 Inference
+	* 17.3.5 Inference
 
-17.4 Event and State Representations 
+* 17.4 Event and State Representations 
 
-17.4.1 Representing Time
+	* 17.4.1 Representing Time
 
-17.4.2 Aspect
+	* 17.4.2 Aspect
 
-17.5  Description Logics
+* 17.5  Description Logics
 
-17.6 Embodied and Situated Approaches to Meaning
+* 17.6 Embodied and Situated Approaches to Meaning
 
-17.7 Summary
+* 17.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 18 Computational Semantics
 
-18.1 Syntax-Driven Semantic Analysis
+* 18.1 Syntax-Driven Semantic Analysis
 
-18.2 Semantic Augmentations to Syntactic Rules
+* 18.2 Semantic Augmentations to Syntactic Rules
 
-18.3 Quantifier Scope Ambiguity and Underspecification
+* 18.3 Quantifier Scope Ambiguity and Underspecification
 
-18.3.1 Store and Retrieve Approaches
+	* 18.3.1 Store and Retrieve Approaches
 
-18.3.2 Constraint-Based Approaches
+	* 18.3.2 Constraint-Based Approaches
 
-18.4 Unification-Based Approaches to Semantic Analysis
+* 18.4 Unification-Based Approaches to Semantic Analysis
 
-18.5 Integration of Semantics into the Earley Parser
+* 18.5 Integration of Semantics into the Earley Parser
 
-18.6 Idioms and Compositionality
+* 18.6 Idioms and Compositionality
 
-18.7 Summary
+* 18.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 19 Lexical Semantics
 
-19.1 Word Senses
+* 19.1 Word Senses
 
-19.2 Relations Between Senses
+* 19.2 Relations Between Senses
 
-19.2.1 Synonymy and Antonymy
+	* 19.2.1 Synonymy and Antonymy
 
-19.2.2 Hyponymy
+	* 19.2.2 Hyponymy
 
-19.2.3 Semantic Fields
+	* 19.2.3 Semantic Fields
 
-19.3 WordNet: A Database of Lexical Relations
+* 19.3 WordNet: A Database of Lexical Relations
 
-19.4 Event Participants
+* 19.4 Event Participants
 
-19.4.1 Thematic Roles
+	* 19.4.1 Thematic Roles
 
-19.4.2 Diathesis Alternations
+	* 19.4.2 Diathesis Alternations
 
-19.4.3 Problems with Thematic Roles
+	* 19.4.3 Problems with Thematic Roles
 
-19.4.4 The Proposition Bank
+	* 19.4.4 The Proposition Bank
 
-19.4.5 FrameNet
+	* 19.4.5 FrameNet
 
-19.4.6 Selectional Restrictions
+	* 19.4.6 Selectional Restrictions
 
-19.5 Primitive Decomposition
+* 19.5 Primitive Decomposition
 
-19.6 Advanced: Metaphor
+* 19.6 Advanced: Metaphor
 
-19.7 Summary
+* 19.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 20 Computational Lexical Semantics
 
-20.1 Word Sense Disambiguation: Overview
+* 20.1 Word Sense Disambiguation: Overview
 
-20.2 Supervised Word Sense Disambiguation
+* 20.2 Supervised Word Sense Disambiguation
 
-20.2.1 Feature Extraction for Supervised Learning
+	* 20.2.1 Feature Extraction for Supervised Learning
 
-20.2.2 Naive Bayes and Decision List Classifiers
+	* 20.2.2 Naive Bayes and Decision List Classifiers
 
-20.3 WSD Evaluation, Baselines, and Ceilings
+* 20.3 WSD Evaluation, Baselines, and Ceilings
 
-20.4 WSD: Dictionary and Thesaurus Methods
+* 20.4 WSD: Dictionary and Thesaurus Methods
 
-20.4.1 The Lesk Algorithm
+	* 20.4.1 The Lesk Algorithm
 
-20.4.2 Selectional Restrictions and Selectional Preferences . . . . 684
+	* 20.4.2 Selectional Restrictions and Selectional Preferences
 
-20.5 Minimally Supervised WSD: Bootstrapping
+* 20.5 Minimally Supervised WSD: Bootstrapping
 
-20.6 Word Similarity: Thesaurus Methods
+* 20.6 Word Similarity: Thesaurus Methods
 
-20.7 Word Similarity: Distributional Methods
+* 20.7 Word Similarity: Distributional Methods
 
-20.7.1 Defining a Word’s Co-Occurrence Vectors
+	* 20.7.1 Defining a Word’s Co-Occurrence Vectors
 
-20.7.2 Measuring Association with Context
+	* 20.7.2 Measuring Association with Context
 
-20.7.3 Defining Similarity Between Two Vectors
+	* 20.7.3 Defining Similarity Between Two Vectors
 
-20.7.4 Evaluating Distributional Word Similarity
+	* 20.7.4 Evaluating Distributional Word Similarity
 
-20.8 Hyponymy and Other Word Relations
+* 20.8 Hyponymy and Other Word Relations
 
-20.9 Semantic Role Labeling
+* 20.9 Semantic Role Labeling
 
-20.10 Advanced: Unsupervised Sense Disambiguation
+* 20.10 Advanced: Unsupervised Sense Disambiguation
 
-20.11 Summary
+* 20.11 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 21 Computational Discourse
 
-21.1 Discourse Segmentation
+* 21.1 Discourse Segmentation
 
-21.1.1 Unsupervised Discourse Segmentation
+	* 21.1.1 Unsupervised Discourse Segmentation
 
-21.1.2 Supervised Discourse Segmentation
+	* 21.1.2 Supervised Discourse Segmentation
 
-21.1.3 Discourse Segmentation Evaluation
+	* 21.1.3 Discourse Segmentation Evaluation
 
-21.2 Text Coherence
+* 21.2 Text Coherence
 
-21.2.1 Rhetorical Structure Theory
+	* 21.2.1 Rhetorical Structure Theory
 
-21.2.2 Automatic Coherence Assignment
+	* 21.2.2 Automatic Coherence Assignment
 
-21.3 Reference Resolution
+* 21.3 Reference Resolution
 
-21.4 Reference Phenomena
+* 21.4 Reference Phenomena
 
-21.4.1 Five Types of Referring Expressions
+	* 21.4.1 Five Types of Referring Expressions
 
-21.4.2 Information Status
+	* 21.4.2 Information Status
 
-21.5 Features for Pronominal Anaphora Resolution
+* 21.5 Features for Pronominal Anaphora Resolution
 
-21.6 Three Algorithms for Pronominal Anaphora Resolution
+* 21.6 Three Algorithms for Pronominal Anaphora Resolution
 
-21.6.1 Pronominal Anaphora Baseline: The Hobbs Algorithm
+	* 21.6.1 Pronominal Anaphora Baseline: The Hobbs Algorithm
 
-21.6.2 A Centering Algorithm for Anaphora Resolution
+	* 21.6.2 A Centering Algorithm for Anaphora Resolution
 
-21.6.3 A Log-Linear Model for Pronominal Anaphora Resoluton
+	* 21.6.3 A Log-Linear Model for Pronominal Anaphora Resoluton
 
-21.6.4 Features for Pronominal Anaphora Resoluton
+	* 21.6.4 Features for Pronominal Anaphora Resoluton
 
-21.7 Coreference Resolution
+* 21.7 Coreference Resolution
 
-21.8 Evaluation of Coreference Resolution
+* 21.8 Evaluation of Coreference Resolution
 
-21.9 Advanced: Inference-Based Coherence Resolution
+* 21.9 Advanced: Inference-Based Coherence Resolution
 
-21.10 Psycholinguistic Studies of Reference
+* 21.10 Psycholinguistic Studies of Reference
 
-21.11 Summary
+* 21.11 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 **Part V Applications**
 
 ## 22 Information Extraction
 
-22.1 Named Entity Recognition
+* 22.1 Named Entity Recognition
 
-22.1.1 Ambiguity in Named Entity Recognition
+	* 22.1.1 Ambiguity in Named Entity Recognition
 
-22.1.2 NER as Sequence Labeling
+	* 22.1.2 NER as Sequence Labeling
 
-22.1.3 Evaluation of Named Entity Recognition
+	* 22.1.3 Evaluation of Named Entity Recognition
 
-22.1.4 Practical NER Architectures
+	* 22.1.4 Practical NER Architectures
 
-22.2 Relation Detection and Classification
+* 22.2 Relation Detection and Classification
 
-22.2.1 Supervised Learning Approaches to Relation Analysis
+	* 22.2.1 Supervised Learning Approaches to Relation Analysis
 
-22.2.2 Lightly Supervised Approaches to Relation Analysis
+	* 22.2.2 Lightly Supervised Approaches to Relation Analysis
 
-22.2.3 Evaluation of Relation Analysis Systems
+	* 22.2.3 Evaluation of Relation Analysis Systems
 
-22.3 Temporal and Event Processing
+* 22.3 Temporal and Event Processing
 
-22.3.1 Temporal Expression Recognition
+	* 22.3.1 Temporal Expression Recognition
 
-22.3.2 Temporal Normalization
+	* 22.3.2 Temporal Normalization
 
-22.3.3 Event Detection and Analysis
+	* 22.3.3 Event Detection and Analysis
 
-22.3.4 TimeBank
+	* 22.3.4 TimeBank
 
-22.4 Template-Filling
+* 22.4 Template-Filling
 
-22.4.1 Statistical Approaches to Template-Filling
+	* 22.4.1 Statistical Approaches to Template-Filling
 
-22.4.2 Finite-State Template-Filling Systems
+	* 22.4.2 Finite-State Template-Filling Systems
 
-22.5 Advanced: Biomedical Information Extraction
+* 22.5 Advanced: Biomedical Information Extraction
 
-22.5.1 Biological Named Entity Recognition
+	* 22.5.1 Biological Named Entity Recognition
 
-22.5.2 Gene Normalization
+	* 22.5.2 Gene Normalization
 
-22.5.3 Biological Roles and Relations
+	* 22.5.3 Biological Roles and Relations
 
-22.6 Summary
+* 22.6 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 23 Question Answering and Summarization
 
-23.1 Information Retrieval
+* 23.1 Information Retrieval
 
-23.1.1 The Vector Space Model
+	* 23.1.1 The Vector Space Model
 
-23.1.2 Term Weighting
+	* 23.1.2 Term Weighting
 
-23.1.3 Term Selection and Creation
+	* 23.1.3 Term Selection and Creation
 
-23.1.4 Evaluation of Information-Retrieval Systems
+	* 23.1.4 Evaluation of Information-Retrieval Systems
 
-23.1.5 Homonymy, Polysemy, and Synonymy
+	* 23.1.5 Homonymy, Polysemy, and Synonymy
 
-23.1.6 Ways to Improve User Queries
+	* 23.1.6 Ways to Improve User Queries
 
-23.2 Factoid Question Answering
+* 23.2 Factoid Question Answering
 
-23.2.1 Question Processing
+	* 23.2.1 Question Processing
 
-23.2.2 Passage Retrieval
+	* 23.2.2 Passage Retrieval
 
-23.2.3 Answer Processing
+	* 23.2.3 Answer Processing
 
-23.2.4 Evaluation of Factoid Answers
+	* 23.2.4 Evaluation of Factoid Answers
 
-23.3 Summarization
+* 23.3 Summarization
 
-23.4 Single Document Summarization 
+* 23.4 Single Document Summarization 
 
-23.4.1 Unsupervised Content Selection
+	* 23.4.1 Unsupervised Content Selection
 
-23.4.2 Unsupervised Summarization Based on Rhetorical Parsing
+	* 23.4.2 Unsupervised Summarization Based on Rhetorical Parsing
 
-23.4.3 Supervised Content Selection
+	* 23.4.3 Supervised Content Selection
 
-23.4.4 Sentence Simplification
+	* 23.4.4 Sentence Simplification
 
-23.5 Multi-Document Summarization
+* 23.5 Multi-Document Summarization
 
-23.5.1 Content Selection in Multi-Document Summarization
+	* 23.5.1 Content Selection in Multi-Document Summarization
 
-23.5.2 Information Ordering in Multi-Document Summarization
+	* 23.5.2 Information Ordering in Multi-Document Summarization
 
-23.6 Focused Summarization and Question Answering
+* 23.6 Focused Summarization and Question Answering
 
-23.7 Summarization Evaluation
+* 23.7 Summarization Evaluation
 
-23.8 Summary
+* 23.8 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 24 Dialogue and Conversational Agents
 
-24.1 Properties of Human Conversations
+* 24.1 Properties of Human Conversations
 
-24.1.1 Turns and Turn-Taking
+	* 24.1.1 Turns and Turn-Taking
 
-24.1.2 Language as Action: Speech Acts
+	* 24.1.2 Language as Action: Speech Acts
 
-24.1.3 Language as Joint Action: Grounding
+	* 24.1.3 Language as Joint Action: Grounding
 
-24.1.4 Conversational Structure
+	* 24.1.4 Conversational Structure
 
-24.1.5 Conversational Implicature
+	* 24.1.5 Conversational Implicature
 
-24.2 Basic Dialogue Systems
+* 24.2 Basic Dialogue Systems
 
-24.2.1 ASR component
+	* 24.2.1 ASR component
 
-24.2.2 NLU component
+	* 24.2.2 NLU component
 
-24.2.3 Generation and TTS components
+	* 24.2.3 Generation and TTS components
 
-24.2.4 Dialogue Manager
+	* 24.2.4 Dialogue Manager
 
-24.2.5 Dealing with Errors: Confirmation and Rejection
+	* 24.2.5 Dealing with Errors: Confirmation and Rejection
 
-24.3 VoiceXML
+* 24.3 VoiceXML
 
-24.4 Dialogue System Design and Evaluation
+* 24.4 Dialogue System Design and Evaluation
 
-24.4.1 Designing Dialogue Systems
+	* 24.4.1 Designing Dialogue Systems
 
-24.4.2 Evaluating Dialogue Systems
+	* 24.4.2 Evaluating Dialogue Systems
 
-24.5 Information-State and Dialogue Acts
+* 24.5 Information-State and Dialogue Acts
 
-24.5.1 Using Dialogue Acts
+	* 24.5.1 Using Dialogue Acts
 
-24.5.2 Interpreting Dialogue Acts
+	* 24.5.2 Interpreting Dialogue Acts
 
-24.5.3 Detecting Correction Acts
+	* 24.5.3 Detecting Correction Acts
 
-24.5.4 Generating Dialogue Acts: Confirmation and Rejection
+	* 24.5.4 Generating Dialogue Acts: Confirmation and Rejection
 
-24.6 Markov Decision Process Architecture
+* 24.6 Markov Decision Process Architecture
 
-24.7 Advanced: Plan-Based Dialogue Agents
+* 24.7 Advanced: Plan-Based Dialogue Agents
 
-24.7.1 Plan-Inferential Interpretation and Production
+	* 24.7.1 Plan-Inferential Interpretation and Production
 
-24.7.2 The Intentional Structure of Dialogue
+	* 24.7.2 The Intentional Structure of Dialogue
 
-24.8 Summary
+* 24.8 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 25 Machine Translation
 
-25.1 Why Machine Translation Is Hard
+* 25.1 Why Machine Translation Is Hard
 
-25.1.1 Typology
+	* 25.1.1 Typology
 
-25.1.2 Other Structural Divergences
+	* 25.1.2 Other Structural Divergences
 
-25.1.3 Lexical Divergences
+	* 25.1.3 Lexical Divergences
 
-25.2 Classical MT and the Vauquois Triangle
+* 25.2 Classical MT and the Vauquois Triangle
 
-25.2.1 Direct Translation
+	* 25.2.1 Direct Translation
 
-25.2.2 Transfer
+	* 25.2.2 Transfer
 
-25.2.3 Combined Direct and Tranfer Approaches in Classic MT
+	* 25.2.3 Combined Direct and Tranfer Approaches in Classic MT
 
-25.2.4 The Interlingua Idea: Using Meaning
+	* 25.2.4 The Interlingua Idea: Using Meaning
 
-25.3 Statistical MT
+* 25.3 Statistical MT
 
-25.4 P(F|E): the Phrase-Based Translation Model
+* 25.4 P(F|E): the Phrase-Based Translation Model
 
-25.5 Alignment in MT
+* 25.5 Alignment in MT
 
-25.5.1 IBM Model 1
+	* 25.5.1 IBM Model 1
 
-25.5.2 HMM Alignment
+	* 25.5.2 HMM Alignment
 
-25.6 Training Alignment Models
+* 25.6 Training Alignment Models
 
-25.6.1 EM for Training Alignment Models
+	* 25.6.1 EM for Training Alignment Models
 
-25.7 Symmetrizing Alignments for Phrase-Based MT
+* 25.7 Symmetrizing Alignments for Phrase-Based MT
 
-25.8 Decoding for Phrase-Based Statistical MT
+* 25.8 Decoding for Phrase-Based Statistical MT
 
-25.9 MT Evaluation
+* 25.9 MT Evaluation
 
-25.9.1 Using Human Raters
+	* 25.9.1 Using Human Raters
 
-25.9.2 Automatic Evaluation: BLEU
+	* 25.9.2 Automatic Evaluation: BLEU
 
-25.10 Advanced: Syntactic Models for MT
+* 25.10 Advanced: Syntactic Models for MT
 
-25.11 Advanced: IBM Model 3 and Fertitlity
+* 25.11 Advanced: IBM Model 3 and Fertitlity
 
-25.11.1 Training for Model 3
+	* 25.11.1 Training for Model 3
 
-25.12 Advanced: Log-linearModels for MT . . . . . . . . . . . . . . . . 903
+	* 25.12 Advanced: Log-linearModels for MT
 
-25.13 Summary
+* 25.13 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## Bibliography
 
