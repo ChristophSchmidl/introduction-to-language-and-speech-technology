@@ -39,537 +39,537 @@
 
 	* 1.6.8 A Final Brief Note on Psychology
 
-1.7 Summary
+* 1.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
 **Part I Words**
 
 ## 2 Regular Expressions and Automata
 
-2.1 Regular Expressions
+* 2.1 Regular Expressions
 
-2.1.1 Basic Regular Expression Patterns
+	* 2.1.1 Basic Regular Expression Patterns
 
-2.1.2 Disjunction, Grouping, and Precedence
+	* 2.1.2 Disjunction, Grouping, and Precedence
 
-2.1.3 A Simple Example
+	* 2.1.3 A Simple Example
 
-2.1.4 A More Complex Example
+	* 2.1.4 A More Complex Example
 
-2.1.5 Advanced Operators
+	* 2.1.5 Advanced Operators
 
-2.1.6 Regular Expression Substitution, Memory, and ELIZA
+	* 2.1.6 Regular Expression Substitution, Memory, and ELIZA
 
-2.2 Finite-State Automata
+* 2.2 Finite-State Automata
 
-2.2.1 Using an FSA to Recognize Sheeptalk
+	* 2.2.1 Using an FSA to Recognize Sheeptalk
 
-2.2.2 Formal Languages
+	* 2.2.2 Formal Languages
 
-2.2.3 Another Example
+	* 2.2.3 Another Example
 
-2.2.4 Non-Deterministic FSAs
+	* 2.2.4 Non-Deterministic FSAs
 
-2.2.5 Using an NFSA to Accept Strings
+	* 2.2.5 Using an NFSA to Accept Strings
 
-2.2.6 Recognition as Search
+	* 2.2.6 Recognition as Search
 
-2.2.7 Relating Deterministic and Non-Deterministic Automata
+	* 2.2.7 Relating Deterministic and Non-Deterministic Automata
 
-2.3 Regular Languages and FSAs
+* 2.3 Regular Languages and FSAs
 
-2.4 Summary
+* 2.4 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 3 Words and Transducers
 
-3.1 Survey of (Mostly) English Morphology
+* 3.1 Survey of (Mostly) English Morphology
 
-3.1.1 Inflectional Morphology
+	* 3.1.1 Inflectional Morphology
 
-3.1.2 Derivational Morphology
+	* 3.1.2 Derivational Morphology
 
-3.1.3 Cliticization
+	* 3.1.3 Cliticization
 
-3.1.4 Non-Concatenative Morphology
+	* 3.1.4 Non-Concatenative Morphology
 
-3.1.5 Agreement
+	* 3.1.5 Agreement
 
-3.2 Finite-State Morphological Parsing
+* 3.2 Finite-State Morphological Parsing
 
-3.3 Construction of a Finite-State Lexicon
+* 3.3 Construction of a Finite-State Lexicon
 
-3.4 Finite-State Transducers
+* 3.4 Finite-State Transducers
 
-3.4.1 Sequential Transducers and Determinism
+	* 3.4.1 Sequential Transducers and Determinism
 
-3.5 FSTs for Morphological Parsing
+* 3.5 FSTs for Morphological Parsing
 
-3.6 Transducers and Orthographic Rules
+* 3.6 Transducers and Orthographic Rules
 
-3.7 The COmbination of an FST Lexicon and Rules
+* 3.7 The Combination of an FST Lexicon and Rules
 
-3.8 Lexicon-Free FSTs: The Porter Stemmer
+* 3.8 Lexicon-Free FSTs: The Porter Stemmer
 
-3.9 Word and Sentence Tokenization
+* 3.9 Word and Sentence Tokenization
 
-3.9.1 Segmentation in Chinese
+	* 3.9.1 Segmentation in Chinese
 
-3.10 Detection and Correction of Spelling Errors
+* 3.10 Detection and Correction of Spelling Errors
 
-3.11 Minimum Edit Distance
+* 3.11 Minimum Edit Distance
 
-3.12 Human Morphological Processing
+* 3.12 Human Morphological Processing
 
-3.13 Summary
+* 3.13 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 4 N-grams
 
-4.1 Word Counting in Corpora
+* 4.1 Word Counting in Corpora
 
-4.2 Simple (Unsmoothed) N-grams
+* 4.2 Simple (Unsmoothed) N-grams
 
-4.3 Training and Test Sets
+* 4.3 Training and Test Sets
 
-4.3.1 N-gram Sensitivity to the Training Corpus
+	* 4.3.1 N-gram Sensitivity to the Training Corpus
 
-4.3.2 Unknown Words: Open Versus Closed Vocabulary Tasks
+	* 4.3.2 Unknown Words: Open Versus Closed Vocabulary Tasks
 
-4.4 Evaluating N-grams: Perplexity
+* 4.4 Evaluating N-grams: Perplexity
 
-4.5 Smoothing
+* 4.5 Smoothing
 
-4.5.1 Laplace Smoothing
+	* 4.5.1 Laplace Smoothing
 
-4.5.2 Good-Turing Discounting
+	* 4.5.2 Good-Turing Discounting
 
-4.5.3 Some Advanced Issues in Good-Turing Estimation
+	* 4.5.3 Some Advanced Issues in Good-Turing Estimation
 
-4.6 Interpolation
+* 4.6 Interpolation
 
-4.7 Backoff
+* 4.7 Backoff
 
-4.7.1 Advanced: Details of Computing Katz Backoff a and P∗
+	* 4.7.1 Advanced: Details of Computing Katz Backoff a and P∗
 
-4.8 Practical Issues: Toolkits and Data Formats
+* 4.8 Practical Issues: Toolkits and Data Formats
 
-4.9 Advanced Issues in Language Modeling
+* 4.9 Advanced Issues in Language Modeling
 
-4.9.1 Advanced Smoothing Methods: Kneser-Ney Smoothing
+	* 4.9.1 Advanced Smoothing Methods: Kneser-Ney Smoothing
 
-4.9.2 Class-Based N-grams
+	* 4.9.2 Class-Based N-grams
 
-4.9.3 Language Model Adaptation and Web Use
+	* 4.9.3 Language Model Adaptation and Web Use
 
-4.9.4 Using Longer Distance Information: A Brief Summary
+	* 4.9.4 Using Longer Distance Information: A Brief Summary
 
-4.10 Advanced: Information Theory Background
+* 4.10 Advanced: Information Theory Background
 
-4.10.1 Cross-Entropy for Comparing Models
+	* 4.10.1 Cross-Entropy for Comparing Models
 
-4.11 Advanced: The Entropy of English and Entropy Rate Constancy
+* 4.11 Advanced: The Entropy of English and Entropy Rate Constancy
 
-4.12 Summary
+* 4.12 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 5 Part-of-Speech Tagging
 
-5.1 (Mostly) English Word Classes
+* 5.1 (Mostly) English Word Classes
 
-5.2 Tagsets for English
+* 5.2 Tagsets for English
 
-5.3 Part-of-Speech Tagging
+* 5.3 Part-of-Speech Tagging
 
-5.4 Rule-Based Part-of-Speech Tagging
+* 5.4 Rule-Based Part-of-Speech Tagging
 
-5.5 HMM Part-of-Speech Tagging
+* 5.5 HMM Part-of-Speech Tagging
 
-5.5.1 Computing the Most-Likely Tag Sequence: An Example
+	* 5.5.1 Computing the Most-Likely Tag Sequence: An Example
 
-5.5.2 Formalizing Hidden Markov Model Taggers
+	* 5.5.2 Formalizing Hidden Markov Model Taggers
 
-5.5.3 Using the Viterbi Algorithm for HMM Tagging
+	* 5.5.3 Using the Viterbi Algorithm for HMM Tagging
 
-5.5.4 Extending the HMM Algorithm to Trigrams
+	* 5.5.4 Extending the HMM Algorithm to Trigrams
 
-5.6 Transformation-Based Tagging
+* 5.6 Transformation-Based Tagging
 
-5.6.1 How TBL Rules Are Applied
+	* 5.6.1 How TBL Rules Are Applied
 
-5.6.2 How TBL Rules Are Learned
+	* 5.6.2 How TBL Rules Are Learned
 
-5.7 Evaluation and Error Analysis
+* 5.7 Evaluation and Error Analysis
 
-5.7.1 Error Analysis
+	* 5.7.1 Error Analysis
 
-5.8 Advanced Issues in Part-of-Speech Tagging
+* 5.8 Advanced Issues in Part-of-Speech Tagging
 
-5.8.1 Practical Issues: Tag Indeterminacy and Tokenization
+	* 5.8.1 Practical Issues: Tag Indeterminacy and Tokenization
 
-5.8.2 Unknown Words
+	* 5.8.2 Unknown Words
 
-5.8.3 Part-of-Speech Tagging for Other Languages
+	* 5.8.3 Part-of-Speech Tagging for Other Languages
 
-5.8.4 Tagger Combination
+	* 5.8.4 Tagger Combination
 
-5.9 Advanced: The Noisy Channel Model for Spelling
+* 5.9 Advanced: The Noisy Channel Model for Spelling
 
-5.9.1 Contextual Spelling Error Correction
+	* 5.9.1 Contextual Spelling Error Correction
 
-5.10 Summary
+* 5.10 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 6 Hidden Markov and Maximum Entropy Models
 
-6.1 Markov Chains
+* 6.1 Markov Chains
 
-6.2 The Hidden Markov Model
+* 6.2 The Hidden Markov Model
 
-6.3 Likelihood Computation: The Forward Algorithm
+* 6.3 Likelihood Computation: The Forward Algorithm
 
-6.4 Decoding: The Viterbi Algorithm
+* 6.4 Decoding: The Viterbi Algorithm
 
-6.5 HMM Training: The Forward-Backward Algorithm
+* 6.5 HMM Training: The Forward-Backward Algorithm
 
-6.6 Maximum Entropy Models: Background
+* 6.6 Maximum Entropy Models: Background
 
-6.6.1 Linear Regression
+	* 6.6.1 Linear Regression
 
-6.6.2 Logistic Regression
+	* 6.6.2 Logistic Regression
 
-6.6.3 Logistic Regression: Classification
+	* 6.6.3 Logistic Regression: Classification
 
-6.6.4 Advanced: Learning in Logistic Regression
+	* 6.6.4 Advanced: Learning in Logistic Regression
 
-6.7 Maximum Entropy Modeling
+* 6.7 Maximum Entropy Modeling
 
-6.7.1 Why We Call it Maximum Entropy
+	* 6.7.1 Why We Call it Maximum Entropy
 
-6.8 Maximum Entropy Markov Models
+* 6.8 Maximum Entropy Markov Models
 
-6.8.1 Decoding and Learning in MEMMs
+	* 6.8.1 Decoding and Learning in MEMMs
 
-6.9 Summary
+* 6.9 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 **Part II Speech**
 
 ## 7 Phonetics
 
-7.1 Speech Sounds and Phonetic Transcription
+* 7.1 Speech Sounds and Phonetic Transcription
 
-7.2 Articulatory Phonetics
+* 7.2 Articulatory Phonetics
 
-7.2.1 The Vocal Organs
+	* 7.2.1 The Vocal Organs
 
-7.2.2 Consonants: Place of Articulation
+	* 7.2.2 Consonants: Place of Articulation
 
-7.2.3 Consonants: Manner of Articulation
+	* 7.2.3 Consonants: Manner of Articulation
 
-7.2.4 Vowels
+	* 7.2.4 Vowels
 
-7.2.5 Syllables 
+	* 7.2.5 Syllables 
 
-7.3 Phonological Categories and Pronunciation Variation
+* 7.3 Phonological Categories and Pronunciation Variation
 
-7.3.1 Phonetic Features
+	* 7.3.1 Phonetic Features
 
-7.3.2 Predicting Phonetic Variation
+	* 7.3.2 Predicting Phonetic Variation
 
-7.3.3 Factors Influencing Phonetic Variation
+	* 7.3.3 Factors Influencing Phonetic Variation
 
-7.4 Acoustic Phonetics and Signals
+* 7.4 Acoustic Phonetics and Signals
 
-7.4.1 Waves
+	* 7.4.1 Waves
 
-7.4.2 Speech Sound Waves
+	* 7.4.2 Speech Sound Waves
 
-7.4.3 Frequency and Amplitude; Pitch and Loudness
+	* 7.4.3 Frequency and Amplitude; Pitch and Loudness
 
-7.4.4 Interpretation of Phones from a Waveform
+	* 7.4.4 Interpretation of Phones from a Waveform
 
-7.4.5 Spectra and the Frequency Domain
+	* 7.4.5 Spectra and the Frequency Domain
 
-7.4.6 The Source-Filter Model
+	* 7.4.6 The Source-Filter Model
 
-7.5 Phonetic Resources
+* 7.5 Phonetic Resources
 
-7.6 Advanced: Articulatory and Gestural Phonology
+* 7.6 Advanced: Articulatory and Gestural Phonology
 
-7.7 Summary
+* 7.7 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 8 Speech Synthesis
 
-8.1 Text Normalization
+* 8.1 Text Normalization
 
-8.1.1 Sentence Tokenization
+	* 8.1.1 Sentence Tokenization
 
-8.1.2 Non-Standard Words
+	* 8.1.2 Non-Standard Words
 
-8.1.3 Homograph Disambiguation
+	* 8.1.3 Homograph Disambiguation
 
-8.2 Phonetic Analysis
+* 8.2 Phonetic Analysis
 
-8.2.1 Dictionary Lookup
+	* 8.2.1 Dictionary Lookup
 
-8.2.2 Names
+	* 8.2.2 Names
 
-8.2.3 Grapheme-to-Phoneme Conversion
+	* 8.2.3 Grapheme-to-Phoneme Conversion
 
-8.3 Prosodic Analysis
+* 8.3 Prosodic Analysis
 
-8.3.1 Prosodic Structure
+	* 8.3.1 Prosodic Structure
 
-8.3.2 Prosodic Prominence
+	* 8.3.2 Prosodic Prominence
 
-8.3.3 Tune
+	* 8.3.3 Tune
 
-8.3.4 More Sophisticated Models: ToBI
+	* 8.3.4 More Sophisticated Models: ToBI
 
-8.3.5 Computing Duration from Prosodic Labels
+	* 8.3.5 Computing Duration from Prosodic Labels
 
-8.3.6 Computing F0 from Prosodic Labels
+	* 8.3.6 Computing F0 from Prosodic Labels
 
-8.3.7 Final Result of Text Analysis: Internal Representation
+	* 8.3.7 Final Result of Text Analysis: Internal Representation
 
-8.4 Diphone Waveform synthesis
+* 8.4 Diphone Waveform synthesis
 
-8.4.1 Steps for Building a Diphone Database
+	* 8.4.1 Steps for Building a Diphone Database
 
-8.4.2 Diphone Concatenation and TD-PSOLA for Prosody
+	* 8.4.2 Diphone Concatenation and TD-PSOLA for Prosody
 
-8.5 Unit Selection (Waveform) Synthesis
+* 8.5 Unit Selection (Waveform) Synthesis
 
-8.6 Evaluation
+* 8.6 Evaluation
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 9 Automatic Speech Recognition
 
-9.1 Speech Recognition Architecture
+* 9.1 Speech Recognition Architecture
 
-9.2 Applying the Hidden Markov Model to Speech
+* 9.2 Applying the Hidden Markov Model to Speech
 
-9.3 Feature Extraction: MFCC vectors
+* 9.3 Feature Extraction: MFCC vectors
 
-9.3.1 Preemphasis
+	* 9.3.1 Preemphasis
 
-9.3.2 Windowing
+	* 9.3.2 Windowing
 
-9.3.3 Discrete Fourier Transform
+	* 9.3.3 Discrete Fourier Transform
 
-9.3.4 Mel Filter Bank and Log
+	* 9.3.4 Mel Filter Bank and Log
 
-9.3.5 The Cepstrum: Inverse Discrete Fourier Transform
+	* 9.3.5 The Cepstrum: Inverse Discrete Fourier Transform
 
-9.3.6 Deltas and Energy
+	* 9.3.6 Deltas and Energy
 
-9.3.7 Summary: MFCC
+	* 9.3.7 Summary: MFCC
 
-9.4 Acoustic Likelihood Computation 
+* 9.4 Acoustic Likelihood Computation 
 
-9.4.1 Vector Quantization
+	* 9.4.1 Vector Quantization
 
-9.4.2 Gaussian PDFs
+	* 9.4.2 Gaussian PDFs
 
-9.4.3 Probabilities, Log Probabilities and Distance Functions
+	* 9.4.3 Probabilities, Log Probabilities and Distance Functions
 
-9.5 The Lexicon and Language Model
+* 9.5 The Lexicon and Language Model
 
-9.6 Search and Decoding
+* 9.6 Search and Decoding
 
-9.7 Embedded Training
+* 9.7 Embedded Training
 
-9.8 Evaluation: Word Error Rate
+* 9.8 Evaluation: Word Error Rate
 
-9.9 Summary
+* 9.9 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 10 Speech Recognition: Advanced Topics
 
-10.1 Multipass Decoding: N-best Lists and Lattices
+* 10.1 Multipass Decoding: N-best Lists and Lattices
 
-10.2 A∗ (‘Stack’) Decoding
+* 10.2 A∗ (‘Stack’) Decoding
 
-10.3 Context-Dependent Acoustic Models: Triphones
+* 10.3 Context-Dependent Acoustic Models: Triphones
 
-10.4 Discriminative Training
+* 10.4 Discriminative Training
 
-10.4.1 Maximum Mutual Information Estimation
+	* 10.4.1 Maximum Mutual Information Estimation
 
-10.4.2 Acoustic Models Based on Posterior Classifiers
+	* 10.4.2 Acoustic Models Based on Posterior Classifiers
 
-10.5 Modeling Variation
+* 10.5 Modeling Variation
 
-10.5.1 Environmental Variation and Noise
+	* 10.5.1 Environmental Variation and Noise
 
-10.5.2 Speaker Variation and Speaker Adaptation
+	* 10.5.2 Speaker Variation and Speaker Adaptation
 
-10.5.3 Pronunciation Modeling: Variation Due to Genre
+	* 10.5.3 Pronunciation Modeling: Variation Due to Genre
 
-10.6 Metadata: Boundaries, Punctuation, and Disfluencies
+* 10.6 Metadata: Boundaries, Punctuation, and Disfluencies
 
-10.7 Speech Recognition by Humans
+* 10.7 Speech Recognition by Humans
 
-10.8 Summary
+* 10.8 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 11 Computational Phonology
 
-11.1 Finite-State Phonology
+* 11.1 Finite-State Phonology
 
-11.2 Advanced Finite-State Phonology
+* 11.2 Advanced Finite-State Phonology
 
-11.2.1 Harmony
+	* 11.2.1 Harmony
 
-11.2.2 Templatic Morphology
+	* 11.2.2 Templatic Morphology
 
-11.3 Computational Optimality Theory
+* 11.3 Computational Optimality Theory
 
-11.3.1 Finite-State Transducer Models of Optimality Theory
+	* 11.3.1 Finite-State Transducer Models of Optimality Theory
 
-11.3.2 Stochastic Models of Optimality Theory
+	* 11.3.2 Stochastic Models of Optimality Theory
 
-11.4 Syllabification
+* 11.4 Syllabification
 
-11.5 Learning Phonology and Morphology
+* 11.5 Learning Phonology and Morphology
 
-11.5.1 Learning Phonological Rules
+	* 11.5.1 Learning Phonological Rules
 
-11.5.2 Learning Morphology
+	* 11.5.2 Learning Morphology
 
-11.5.3 Learning in Optimality Theory
+	* 11.5.3 Learning in Optimality Theory
 
-11.6 Summary
+* 11.6 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 **Part III Syntax**
 
 ## 12 Formal Grammars of English
 
-12.1 Constituency
+* 12.1 Constituency
 
-12.2 Context-Free Grammars
+* 12.2 Context-Free Grammars
 
-12.2.1 Formal definition of Context-Free Grammar
+	* 12.2.1 Formal definition of Context-Free Grammar
 
-12.3 Some Grammar Rules for English
+* 12.3 Some Grammar Rules for English
 
-12.3.1 Sentence-Level Constructions
+	* 12.3.1 Sentence-Level Constructions
 
-12.3.2 Clauses and Sentences
+	* 12.3.2 Clauses and Sentences
 
-12.3.3 The Noun Phrase
+	* 12.3.3 The Noun Phrase
 
-12.3.4 Agreement
+	* 12.3.4 Agreement
 
-12.3.5 The Verb Phrase and Subcategorization
+	* 12.3.5 The Verb Phrase and Subcategorization
 
-12.3.6 Auxiliaries
+	* 12.3.6 Auxiliaries
 
-12.3.7 Coordination
+	* 12.3.7 Coordination
 
-12.4 Treebanks
+* 12.4 Treebanks
 
-12.4.1 Example: The Penn Treebank Project
+	* 12.4.1 Example: The Penn Treebank Project
 
-12.4.2 Treebanks as Grammars
+	* 12.4.2 Treebanks as Grammars
 
-12.4.3 Treebank Searching
+	* 12.4.3 Treebank Searching
 
-12.4.4 Heads and Head Finding
+	* 12.4.4 Heads and Head Finding
 
-12.5 Grammar Equivalence and Normal Form
+* 12.5 Grammar Equivalence and Normal Form
 
-12.6 Finite-State and Context-Free Grammars
+* 12.6 Finite-State and Context-Free Grammars
 
-12.7 Dependency Grammars
+* 12.7 Dependency Grammars
 
-12.7.1 The Relationship Between Dependencies and Heads
+	* 12.7.1 The Relationship Between Dependencies and Heads
 
-12.7.2 Categorial Grammar
+	* 12.7.2 Categorial Grammar
 
-12.8 Spoken Language Syntax
+* 12.8 Spoken Language Syntax
 
-12.8.1 Disfluencies and Repair
+	* 12.8.1 Disfluencies and Repair
 
-12.8.2 Treebanks for Spoken Language
+	* 12.8.2 Treebanks for Spoken Language
 
-12.9 Grammars and Human Processing
+* 12.9 Grammars and Human Processing
 
-12.10 Summary
+* 12.10 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 13 Syntactic Parsing
 
-13.1 Parsing as Search
+* 13.1 Parsing as Search
 
-13.1.1 Top-Down Parsing
+	* 13.1.1 Top-Down Parsing
 
-13.1.2 Bottom-Up Parsing
+	* 13.1.2 Bottom-Up Parsing
 
-13.1.3 Comparing Top-Down and Bottom-Up Parsing
+	* 13.1.3 Comparing Top-Down and Bottom-Up Parsing
 
-13.2 Ambiguity
+* 13.2 Ambiguity
 
-13.3 Search in the Face of Ambiguity
+* 13.3 Search in the Face of Ambiguity
 
-13.4 Dynamic Programming Parsing Methods
+* 13.4 Dynamic Programming Parsing Methods
 
-13.4.1 CKY Parsing
+	* 13.4.1 CKY Parsing
 
-13.4.2 The Earley Algorithm
+	* 13.4.2 The Earley Algorithm
 
-13.4.3 Chart Parsing
+	* 13.4.3 Chart Parsing
 
-13.5 Partial Parsing
+* 13.5 Partial Parsing
 
-13.5.1 Finite-State Rule-Based Chunking
+	* 13.5.1 Finite-State Rule-Based Chunking
 
-13.5.2 Machine Learning-Based Approaches to Chunking
+	* 13.5.2 Machine Learning-Based Approaches to Chunking
 
-13.5.3 Evaluating Chunking Systems
+	* 13.5.3 Evaluating Chunking Systems
 
-13.6 Summary
+* 13.6 Summary
 
-Bibliographical and Historical Notes
+* Bibliographical and Historical Notes
 
-Exercises
+* Exercises
 
 ## 14 Statistical Parsing
 
