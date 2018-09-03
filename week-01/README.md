@@ -1,7 +1,24 @@
-# Week 1 - Exercises
+# Week 1 
+
+* Chapter 1:
+	* Read completely (level R)
+
+* Chapter 2:
+	* Read completely (level RU)
+	* You have to be able to **understand and build regular expressions** for given tasks
+	* You have to be able to **understand and build an FSA**
 
 
-## Regex Crossword Puzzles - Intermediate
+
+
+## Exercises
+
+* Do all five crosswords under http://regexcrossword.com/challenges/intermediate/puzzles/1
+* Attempt to do http://regexcrossword.com/challenges/experienced/puzzles/4 and http://regexcrossword.com/challenges/experienced/puzzles/5
+
+
+
+### Regex Crossword Puzzles - Intermediate
 
 | | UB\|IE\|AW | [TUBE]* | [BORF]. |
 | ------------- | ------------- | ------------- | ------------- |
@@ -35,7 +52,7 @@
 | **O.*[HAT]** | O | F | F | A |
 | __(.)*DO\1__ | N | D | O | N |
 
-## Regex Crossword Puzzles - Experienced
+### Regex Crossword Puzzles - Experienced
 
 **Puzzle 4**
 
