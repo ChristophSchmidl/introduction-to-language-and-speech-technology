@@ -8,14 +8,16 @@
 	* You have to be able to **understand and build regular expressions** for given tasks
 	* You have to be able to **understand and build an FSA**
 
-
+* Chapter 3:
+	* Read at level RU: Intro, 3.1, 3.2, 3.8, 3.9, Summary
+	* Read at level R: Notes
 
 
 ## Exercises
 
 * Do all five crosswords under http://regexcrossword.com/challenges/intermediate/puzzles/1
 * Attempt to do http://regexcrossword.com/challenges/experienced/puzzles/4 and http://regexcrossword.com/challenges/experienced/puzzles/5
-
+* Do exercise 3.1 (“Give examples…”).
 
 
 ### Regex Crossword Puzzles - Intermediate
@@ -74,3 +76,10 @@
 | **.\*(XA\|BE).*** | O | B | E | A | R |
 | **(EG\|UL){2}[ALF]*** | E | G | U | L | A |
 | **[REQ]*(G\|P)(.)+** | R | R | E | G | X |
+
+
+### Exercise 3.1
+
+Give examples of each of the noun and verb classes in Fig. 3.6, and find some exceptions to the rules.
+
+![Figure 3.6](fig_3_6.PNG "Figure 3.6")
