@@ -1,14 +1,14 @@
 # Week 1 
 
-* Chapter 1:
+* Chapter 1 - Introduction:
 	* Read completely (level R)
 
-* Chapter 2:
+* Chapter 2 - Regular Expressions and Automata:
 	* Read completely (level RU)
 	* You have to be able to **understand and build regular expressions** for given tasks
 	* You have to be able to **understand and build an FSA**
 
-* Chapter 3:
+* Chapter 3 - Words and Transducers:
 	* Read at level RU: Intro, 3.1, 3.2, 3.8, 3.9, Summary
 	* Read at level R: Notes
 
