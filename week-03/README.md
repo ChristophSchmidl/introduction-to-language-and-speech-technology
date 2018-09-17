@@ -28,3 +28,13 @@
 * Explain in your own words (at most 50) how the EM algorithm works. I don’t mean the mathematics, but the underlying concept.
 	* **Answer:** The EM (Expectation-Maximization) algorithm is used for maximum likelihood estimation of model parameters. If you are given a dataset, the EM algorithm tries to answer the question which model parameters have the highest likelihood of producing a certain probability distribution given the dataset. The first step of the algorithm is the expectation step (e-step). The expectation step does not incroporate any data but makes a random guess for the parameter values and creates a probability distribution. The maximization step (m-step) then incorporates part of the data and tweaks the parameter values in order to fit the initial distribution. This m-step is repeated until it converges towards a stable distribution and the parameters with the highest likelihood are found.
 * Do the Machine Learning exercise.
+	* Machine learning method accuracies given all features:
+		* Random Forest: Correctly Classified Instances        4183               97.4604 %
+		* Naive Bayes: Correctly Classified Instances        4175               97.274  %
+		* Decision Tree (J48): Correctly Classified Instances        4146               96.5983 %
+	* Feature important:
+		* P1D (NaiveBayes: Correctly Classified Instances        4139               96.4352 %)
+		* FW
+		* N1D
+		* P2D
+		* N2D
